@@ -2,22 +2,15 @@
 
 Repositorio de trabajo para el curso de **MLOps** de la Maestría en Inteligencia Artificial Aplicada.
 
-## Objetivo
-
-Desarrollar conocimientos y prácticas de MLOps mediante:
-
-- Control de versiones
-- Versionado y gestión de datos
-- Tracking de experimentos
-- Reproducibilidad
-- Testing
-- Model Registry
-- APIs para modelos de ML
-- Docker
-- CI/CD
-- Monitoring
-- Data Drift
-- Continuous Training
+# El script train.py permite:
+- Ejecutar el entrenamiento desde la línea de comandos.
+- Configurar hiperparámetros mediante argumentos CLI.
+- Utilizar una semilla aleatoria para reproducibilidad.
+- Registrar experimentos mediante MLflow.
+- Registrar parámetros y métricas.
+- Generar artefactos de evaluación.
+- Registrar el modelo entrenado.
+- Comparar diferentes configuraciones dentro de un mismo experimento.
 
 ## Estructura
 
