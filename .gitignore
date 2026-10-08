@@ -5,8 +5,11 @@ __pycache__/
 *.py[cod]
 *.pyo
 *.pyd
+*.egg-info/
 
+# =========================
 # Virtual environments
+# =========================
 .venv/
 venv/
 env/
@@ -16,14 +19,19 @@ env/
 # =========================
 mlruns/
 mlartifacts/
-mlflow.db
-mlflow.db-shm
-mlflow.db-wal
+*.db
+*.db-shm
+*.db-wal
 
 # =========================
 # DVC
 # =========================
 .dvc/cache/
+
+# =========================
+# Generated artifacts
+# =========================
+artifacts/
 
 # =========================
 # Testing / tooling
@@ -33,6 +41,11 @@ mlflow.db-wal
 .ruff_cache/
 .coverage
 htmlcov/
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
 
 # =========================
 # Logs
