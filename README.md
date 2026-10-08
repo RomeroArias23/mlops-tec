@@ -34,7 +34,5 @@ mlops-tec/
 │
 └── week-04/
     ├── Attribute DataSet.xlsx
-    ├── train.py
-    └── artifacts/
-        ├── classification_report.txt
-        └── confusion_matrix.txt
+    └── train.py
+
